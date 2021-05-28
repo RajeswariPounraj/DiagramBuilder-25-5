@@ -2260,7 +2260,7 @@ input.db-layer-edit {
 /* Animation At Initial Rendering start */
 
 .sb-content-overlay {
-    z-index: 10000022;
+    z-index: 10000026;
     display: block;
     position: absolute;
     width: 100%;
