@@ -953,7 +953,7 @@ input, button, select, textarea {
 /* Toolbar Selected State - End */
 
 /* Toolbar Enable - Start */
-
+//.e-dropdown-btn, .e-dropdown-btn.e-btn
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke,
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category,
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order,
@@ -961,22 +961,22 @@ input, button, select, textarea {
 .db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category,
 .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill,
 .db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup,
-.db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo, 
+.db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo,
 .db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo {
     pointer-events: all;
 }
 
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-tbar-btn,
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-tbar-btn,
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn,
-.db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-tbar-btn,
-.db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-tbar-btn,
-.db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-tbar-btn,
-.db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-tbar-btn,
-.db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-tbar-btn, 
-.db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-tbar-btn {
-    background: #ffffff;
-}
+    .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-dropdown-btn,
+    .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-tbar-btn,
+    .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn,
+    .db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-tbar-btn,
+    .db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-tbar-btn,
+    .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-dropdown-btn,
+    .db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-tbar-btn,
+    .db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-tbar-btn,
+    .db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-tbar-btn {
+        background: #ffffff;
+    }
 
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-icons.e-btn-icon,
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-icons.e-btn-icon,
