@@ -893,28 +893,28 @@ input, button, select, textarea {
     pointer-events: none;
 }
 
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-group .e-tbar-btn, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-tbar-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-tbar-btn, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-tbar-btn {
-    background: #f5f5f5;
-    border-color: #DADADA;
-}
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-dropdown-btn.e-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-dropdown-btn.e-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-tbar-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-tbar-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-tbar-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-group .e-tbar-btn, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-tbar-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn,
+    #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-tbar-btn, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-tbar-btn {
+        background: #f5f5f5;
+        border-color: #DADADA;
+    }
 
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-group .e-icons.e-btn-icon, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-icons.e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn .e-btn-icon,
-#toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-icons.e-btn-icon, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-icons.e-btn-icon {
-    color: #bababa;
-}
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-btn .e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-btn .e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-icons.e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-icons.e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-icons.e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-group .e-icons.e-btn-icon, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-icons.e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn .e-btn-icon,
+        #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-icons.e-btn-icon, #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-icons.e-btn-icon {
+            color: #bababa;
+        }
 
 .diagrambuilder-container.custom-diagram #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-custom-diagram-disable {
     pointer-events: none;
@@ -953,42 +953,44 @@ input, button, select, textarea {
 /* Toolbar Selected State - End */
 
 /* Toolbar Enable - Start */
-//.e-dropdown-btn, .e-dropdown-btn.e-btn
+
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke,
+.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke-multiple-objects,
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category,
 .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order,
 .db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category,
 .db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category,
 .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill,
+.db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill-multiple-nodes,
 .db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup,
 .db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo,
 .db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo {
     pointer-events: all;
 }
 
-    .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-dropdown-btn,
+    .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-dropdown-btn.e-btn,
     .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-tbar-btn,
     .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn,
     .db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-tbar-btn,
     .db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-tbar-btn,
-    .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-dropdown-btn,
+    .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-dropdown-btn.e-btn,
     .db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-tbar-btn,
     .db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-tbar-btn,
     .db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-tbar-btn {
         background: #ffffff;
     }
 
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-icons.e-btn-icon,
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-icons.e-btn-icon,
-.db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn .e-btn-icon:not(.e-caret),
-.db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-icons.e-btn-icon,
-.db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-icons.e-btn-icon,
-.db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-icons.e-btn-icon,
-.db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-icons.e-btn-icon,
-.db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-icons.e-btn-icon, 
-.db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-icons.e-btn-icon {
-    color: #757575;
-}
+        .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-stroke .e-btn .e-btn-icon,
+        .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-lock-category .e-icons.e-btn-icon,
+        .db-toolbar-container.db-select #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-order .e-dropdown-btn .e-btn-icon:not(.e-caret),
+        .db-toolbar-container.db-double #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-align-category .e-icons.e-btn-icon,
+        .db-toolbar-container.db-multiple #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-space-category .e-icons.e-btn-icon,
+        .db-toolbar-container.db-select.db-node #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-fill .e-btn .e-btn-icon,
+        .db-toolbar-container.db-select.db-group #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-ungroup .e-icons.e-btn-icon,
+        .db-toolbar-container.db-undo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-undo .e-icons.e-btn-icon,
+        .db-toolbar-container.db-redo #toolbarEditor .e-toolbar-items .e-toolbar-item.tb-item-redo .e-icons.e-btn-icon {
+            color: #757575;
+        }
 
 /* Toolbar Enable - End */
 
@@ -2807,3 +2809,22 @@ input.e-input::selection,
         cursor: auto;
         pointer-events: none;
     }
+
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-dropdown-btn.e-btn {
+    width: 100% !important;
+}
+
+.e-toolbar .e-toolbar-items .e-toolbar-item.tb-item-start .e-dropdown-btn.e-btn {
+    border-width: 1px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-dropdown-btn.e-btn {
+    height: 100%;
+    margin: 0px;
+}
+
+.e-toolbar .e-toolbar-items .e-dropdown-btn.e-btn {
+    border-style: solid;
+}
